@@ -1,4 +1,4 @@
-Kiem tra phien ban
+﻿Kiem tra phien ban
  - $ git --version
 
 Kiem tra lich su thay doi cua repository
@@ -45,5 +45,4 @@ Dang ky url cua repostitory
  - $ git remote add origin https://[your_space_id].backlogtool.com/git/[your_project_key]/tutorial.git
 push len 
  - $ git push -u origin master
- 
- kiem tra pull
+

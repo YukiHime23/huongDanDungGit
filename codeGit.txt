@@ -1,0 +1,32 @@
+Kiem tra phien ban
+ - $ git --version
+
+Tao 1 repository moi
+ - $ git init
+
+De clone 1 repository co san tren may cuc bo:
+ - $ git clone /duong-dan-den/repository/
+Neu repository o may chu khac:
+ - git clone tênusername@diachimaychu:/duong-dan-den/repository
+
+Thiet lap config, username va email
+ - $ git config --global user.name "<Tên nguoi dung>"
+ - $ git config --global user.email "<Ðia chi mail>"
+tao mau cho phan xuat ra cua git
+ - $ git config --global color.ui auto
+thiet lap bi danh (aliases) gian luoc "checkout" thanh "co"
+ - $ git config --global alias.co checkout
+
+Tao repository tren local. Tao 1 thu muc tren may hoac dung 1 thu muc co san
+Tro den thu muc do de dat thu muc duoi su quan ly cua git
+ * Tao thu muc moi
+ - $ mkdir `ten thu muc`
+ - $ cd `duong dan`/`ten thu muc`
+ - $ git init
+
+Kiem tra trang thai working tree va index cua thu muc
+ - $ git status
+
+Chi dinh ( Dang ky ) file vao index trong <file>
+ - $ git add <file>
+co the chi dinh nhieu cai bang khoang trang phan cach

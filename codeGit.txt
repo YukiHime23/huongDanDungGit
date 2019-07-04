@@ -40,4 +40,8 @@ Commit nhung thay doi
  - $ git commit -m "<ghi chu commit>"
 
 Tao 1 repository tren GitHub
-Clone
+Clone len repostory vua tao
+Dang ky url cua repostitory
+ - $ git remote add origin https://[your_space_id].backlogtool.com/git/[your_project_key]/tutorial.git
+push len 
+ - $ git push -u origin master

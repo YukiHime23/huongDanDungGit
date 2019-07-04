@@ -1,6 +1,9 @@
 Kiem tra phien ban
  - $ git --version
 
+Kiem tra lich su thay doi cua repository
+ - $ git log
+
 Tao 1 repository moi
  - $ git init
 
@@ -30,3 +33,11 @@ Kiem tra trang thai working tree va index cua thu muc
 Chi dinh ( Dang ky ) file vao index trong <file>
  - $ git add <file>
 co the chi dinh nhieu cai bang khoang trang phan cach
+khi chi dinh "." trong tham so thi co the dang ky tat ca file trong index
+ - $ git add .
+
+Commit nhung thay doi
+ - $ git commit -m "<ghi chu commit>"
+
+Tao 1 repository tren GitHub
+Clone

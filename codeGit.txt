@@ -46,3 +46,13 @@ Dang ky url cua repostitory
 push len 
  - $ git push -u origin master
 
+Branches(nhanh)
+Tao 1 nhanh moi
+ - $ git checkout -b tennhanh
+Tro lai nhanh master
+ - $ git checkout master
+Xoa nhanh
+ - $ git branch -d tennhanh
+push vs nhanh
+ - $ git push origin <nhanh>
+

@@ -47,6 +47,8 @@ push len
  - $ git push -u origin master
 
 Branches(nhanh)
+Danh sach nhanh
+ - $ git branch
 Tao 1 nhanh moi
  - $ git checkout -b tennhanh
 Tro lai nhanh master

@@ -3,6 +3,12 @@
 
 Kiem tra lich su thay doi cua repository
  - $ git log
+Kiem tra lich su thay doi cua repository voi 2 commit gan nhat
+ - $ git log -2
+Kiem tra lich su thay doi cua repository voi 2 commit gan nhat, bao gom ca thay doi
+
+Liet ke cac remote url hien tai
+ - $ git remote -v
 
 Tao 1 repository moi
  - $ git init
@@ -19,6 +25,8 @@ tao mau cho phan xuat ra cua git
  - $ git config --global color.ui auto
 thiet lap bi danh (aliases) gian luoc "checkout" thanh "co"
  - $ git config --global alias.co checkout
+Liet ke nhung config dang su dung
+ - $ git config --list
 
 Tao repository tren local. Tao 1 thu muc tren may hoac dung 1 thu muc co san
 Tro den thu muc do de dat thu muc duoi su quan ly cua git
@@ -58,3 +66,5 @@ Xoa nhanh
 push vs nhanh
  - $ git push origin <nhanh>
 
+Thay doi origin url
+ - $ git remote set-url origin <https://github.com/repo.git>

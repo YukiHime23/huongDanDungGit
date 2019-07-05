@@ -68,3 +68,7 @@ push vs nhanh
 
 Thay doi origin url
  - $ git remote set-url origin <https://github.com/repo.git>
+
+Merge commit tu branch khac
+ - $ git checkout master
+ - $ git merge branch-name

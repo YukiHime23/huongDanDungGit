@@ -72,3 +72,6 @@ Thay doi origin url
 Merge commit tu branch khac
  - $ git checkout master
  - $ git merge branch-name
+
+De cap nhap thay doi tu remote repository
+ - $ git pull origin master 

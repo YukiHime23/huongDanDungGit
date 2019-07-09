@@ -75,3 +75,8 @@ Merge commit tu branch khac
 
 De cap nhap thay doi tu remote repository
  - $ git pull origin master 
+
+De tao SSH key
+ - $ ssh-keygen -t rsa -b 4096 -C "luutruhocit@gmail.com"
+De thay doi SSH key
+ - $  ssh-keygen -p

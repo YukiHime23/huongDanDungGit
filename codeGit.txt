@@ -80,3 +80,7 @@ De tao SSH key
  - $ ssh-keygen -t rsa -b 4096 -C "luutruhocit@gmail.com"
 De thay doi SSH key
  - $  ssh-keygen -p
+
+Ket Noi
+$ eval $(ssh-agent -s)
+$ ssh-add 'keo tha file key'

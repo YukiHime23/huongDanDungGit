@@ -68,7 +68,7 @@ push vs nhanh
 
 Thay doi origin url
  - $ git remote set-url origin <https://github.com/repo.git>
-
+NoPassword
 Merge commit tu branch khac
  - $ git checkout master
  - $ git merge branch-name
@@ -80,3 +80,4 @@ De tao SSH key
  - $ ssh-keygen -t rsa -b 4096 -C "luutruhocit@gmail.com"
 De thay doi SSH key
  - $  ssh-keygen -p
+NoPassword

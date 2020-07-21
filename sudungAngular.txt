@@ -1,5 +1,6 @@
 - Cai dat moi truong
-+ NodeJs
++ NodeJs https://nodejs.org/en/download/
+  node -v // kiem tra version
 
 
 - create with AngularCli

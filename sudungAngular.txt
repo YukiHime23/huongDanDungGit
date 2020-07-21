@@ -1,0 +1,11 @@
+- Cai dat moi truong
++ NodeJs
+
+
+- create with AngularCli
+ng new my-app
+- run Angular Pj
+ng serve --open
+- tao them component
+ng g c <ten_comp>
+ng g c <ten_comp> --skipTests // de bo file test

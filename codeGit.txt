@@ -83,8 +83,6 @@ De tao SSH key
 De thay doi SSH key
  - $  ssh-keygen -p
 
-NoPassword
-
 Ket Noi
 $ eval $(ssh-agent -s)
 $ ssh-add 'keo tha file key'
